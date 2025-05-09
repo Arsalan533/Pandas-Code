@@ -9,3 +9,6 @@ data = {
 }
 
 df = pd.DataFrame(data)
+print(df)
+# linear, polynomial, time, etc.
+df.interpolate(method="linear", axis=0, inplace=True)
